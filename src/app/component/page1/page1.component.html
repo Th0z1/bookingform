@@ -1,0 +1,25 @@
+
+    <div class="pop">
+      <h1>BOOKINGS</h1>
+  <form>
+     Name <br>
+  <input type="text" name="name" [(ngModel)]="fname">
+  <br>
+  Surname <br>
+  <input type="text" name="surname" [(ngModel)]="lname">
+  <br>
+  Age <br>
+  <input type="text" name="age" [(ngModel)]="age">
+  <br>
+      <h4>Gender</h4>
+      <input type="radio" name="gender" value="male" checked [(ngModel)]="gender"> Male<br>
+      <input type="radio" name="gender" value="female" [(ngModel)]="gender"> Female<br>
+      <input type="radio" name="gender" value="other" [(ngModel)]="gender"> Other  
+    <br> 
+  Date<br>
+  <input type="date" name="date"[(ngModel)]="date">
+  <br>
+  <button (click)="onLogin()">Submit</button>
+  </form></div>
+  
+ 

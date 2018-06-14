@@ -1,0 +1,20 @@
+.pop{
+    margin: auto;
+    width: 50%;
+    background-color:salmon;
+    text-align: center;
+    border-radius: 25px;
+
+}
+button{
+    margin-top: 5%;
+height: 50px;
+background-color:white(185, 57, 67);
+font-size: 20px;
+font-weight: bold;
+width: 50%;
+border-radius: 25px;
+}
+h1{
+    font-style:unset;
+}

@@ -1,0 +1,4 @@
+<div id="left-menu">
+  <app-navbar *ngFor="let page of pages" [page]="page.page" [name]="page.name"[fname]="fname" [lname]="lname"[age]="age"[gender]="gender"[date]="date"></app-navbar>
+</div>
+<router-outlet></router-outlet>

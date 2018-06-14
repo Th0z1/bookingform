@@ -1,0 +1,10 @@
+table,th,td{
+    border: 5px solid black;
+}
+table{
+    margin: auto;
+    width: 50%;
+}
+h2{
+    text-align: center;
+}
